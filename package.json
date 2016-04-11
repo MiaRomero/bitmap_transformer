@@ -1,0 +1,34 @@
+{
+  "name": "bitmap_transformer",
+  "version": "1.0.0",
+  "description": "change colors of pixels in a bitmap image",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiaRomero/bitmap_transformer.git"
+  },
+  "keywords": [
+    "bitmap",
+    "pixel",
+    "transform"
+  ],
+  "author": "Maria Romero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiaRomero/bitmap_transformer/issues"
+  },
+  "homepage": "https://github.com/MiaRomero/bitmap_transformer#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.4.5"
+  }
+}
